@@ -13,3 +13,6 @@ Customer name: Priya
 Output:
 Priya, your 2 loads will be ready in 50 minutes.
 """
+
+# Here is a hard-coded print statement to get started with
+print("Bo, your 3 loads will be ready in 75 minutes.")
