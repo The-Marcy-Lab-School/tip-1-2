@@ -87,30 +87,6 @@ Answer these as comments at the bottom of `receipts.py`:
 
 ## Part 2: Investigate (10 minutes)
 
-### A) Break down the message
-
-Take the latte message, `2 lattes cost $24`. For **Program C**, then **Program B**, split it into pieces and fill in this table (in a comment or on paper). One row per piece.
-
-| Program | Piece of the message | Fixed text or from a name? | Which name or expression | Value for the tea order |
-|---|---|---|---|---|
-| C | `2` | from a name | `quantity` | `3` |
-| C | | | | |
-| C | | | | |
-| C | | | | |
-| B | | | | |
-| B | | | | |
-| B | | | | |
-
-Check your work: the last column, read top to bottom for each program, should spell out what that program actually printed for the tea order.
-
-🙋 **Ask for help if:** the last column doesn't match what you saw printed, and you can't find which row is off.
-
-### B) Compare
-
-Why did A, B, and C all print the same thing for the latte order, but only C was right for the tea order? Write your answer and name the idea number(s) that explain it.
-
-### C) Run these in the REPL (2 minutes)
-
 Open the REPL (`python3`). Predict each result before you press Enter.
 
 ```
