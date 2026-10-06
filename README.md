@@ -4,11 +4,11 @@
 
 **Files in this repo**
 
-| File | Used in |
-|---|---|
-| `receipts.py` | Parts 1–3 |
-| `bagel_trace.py` | Part 3, exercise 3 |
-| `laundromat.py` (empty) | Part 4 |
+| File                    | Used in            |
+| ----------------------- | ------------------ |
+| `receipts.py`           | Parts 1–3          |
+| `bagel_trace.py`        | Part 3, exercise 3 |
+| `laundromat.py` (empty) | Part 4             |
 
 ## How this activity works
 
@@ -38,14 +38,15 @@ The ✅ symbol marks a checkpoint where you show an instructor your work before 
 
 ## The big ideas (come back to this table)
 
-| # | Idea | Try it in the REPL |
-|---|---|---|
-| 1 | Text typed directly into a string never changes. Only the parts that come from names or expressions change. | `latte = 12`, `f"lattes cost ${latte}"`, `latte = 4`, `f"lattes cost ${latte}"` |
-| 2 | Python doesn't read meaning into names. A name holds whatever was assigned to it. | `tea = "coffee"`, `tea` |
-| 3 | A program only uses the names it actually refers to. | `price = 4`, `latte = 12`, `f"${latte}"` |
-| 4 | Two programs can print the same thing for one set of values and different things for another. One run can't prove a program is right. | `quantity = 2`, `quantity * 12`, `24`, then `quantity = 3` and try both again |
-| 5 | A program can pause and get a value from the person running it. The code can only refer to that value by its name. | `item_name = input("Item: ")`, type something, then `item_name` |
-| 6 | An expression inside `{}` in an f-string is worked out when that line runs. | `price = 4`, `quantity = 3`, `f"${price * quantity}"` |
+| #   | Idea                                                                                                                                       | Try it in the REPL                                                              |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
+| 1   | Text typed directly into a string never changes. Only the parts that come from names or expressions change.                                | `latte = 12`, `f"lattes cost ${latte}"`, `latte = 4`, `f"lattes cost ${latte}"` |
+| 2   | Python doesn't read meaning into names. A name holds whatever was assigned to it.                                                          | `tea = "coffee"`, `tea`                                                         |
+| 3   | A program only uses the names it actually refers to.                                                                                       | `price = 4`, `latte = 12`, `f"${latte}"`                                        |
+| 4   | Two programs can print the same thing for one set of values and different things for another. One run can't prove a program is right.      | `quantity = 2`, `quantity * 12`, `24`, then `quantity = 3` and try both again   |
+| 5   | A program can pause and get a value from the person running it. The code can only refer to that value by its name.                         | `item_name = input("Item: ")`, type something, then `item_name`                 |
+| 6   | An expression inside `{}` in an f-string is worked out when that line runs.                                                                | `price = 4`, `quantity = 3`, `f"${price * quantity}"`                           |
+| 7   | Referencing a variable evaluates to the value held in that variable at that time. Reassigning it later does not affect earlier references. | `price = 4`, `print(price)`, `price = 10`                                       |
 
 ## Habits for today
 
