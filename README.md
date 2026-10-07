@@ -4,11 +4,12 @@
 
 **Files in this repo**
 
-| File                    | Used in            |
-| ----------------------- | ------------------ |
-| `receipts.py`           | Parts 1–3          |
-| `bagel_trace.py`        | Part 3, exercise 3 |
-| `laundromat.py` (empty) | Part 4             |
+| File                      | Used in            |
+| ------------------------- | ------------------ |
+| `receipts.py`             | Parts 1–3          |
+| `bagel_trace.py`          | Part 3, exercise 3 |
+| `laundromat.py` (empty)   | Part 4             |
+| `bus_schedule.py` (empty) | Independent Check  |
 
 ## How this activity works
 
@@ -47,6 +48,7 @@ The ✅ symbol marks a checkpoint where you show an instructor your work before 
 | 5   | A program can pause and get a value from the person running it. The code can only refer to that value by its name.                         | `item_name = input("Item: ")`, type something, then `item_name`                 |
 | 6   | An expression inside `{}` in an f-string is worked out when that line runs.                                                                | `price = 4`, `quantity = 3`, `f"${price * quantity}"`                           |
 | 7   | Referencing a variable evaluates to the value held in that variable at that time. Reassigning it later does not affect earlier references. | `price = 4`, `print(price)`, `price = 10`                                       |
+| 8   | When possible, generalize variables to avoid having multiple variables that share the same subject                                         | `tea_price = 4` and `latte_price = 12` -> `price = 10`                          |
 
 ## Habits for today
 
